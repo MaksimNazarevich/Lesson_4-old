@@ -1,0 +1,80 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+@font-face {
+	font-family: 'Overpass-ExtraLight';
+	src: url('../fonts/overpass-extralight.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/overpass-extralight.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/overpass-extralight.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/overpass-extralight.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/overpass-extralight.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/overpass-extralight.svg#overpass-extralight') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+
+body {
+	font-family: 'Overpass-ExtraLight',sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-align: left;
+}
+
+.link_style{
+	color: #2980b9;
+	text-decoration: underline;
+}
+h1{
+
+	font-size: 28px;
+	text-align: left;
+}
+h1,
+h3{
+	font-family: 'Nanum Gothic Coding', monospace;
+	color: #34495e;
+	font-weight: normal;
+	text-shadow: 5px 10px 8px  rgb(218, 15, 15);
+	
+}
+h3{
+	text-align: center;
+	line-height: 20px;
+	text-shadow: none;
+}
+
+.image_style{
+	text-align: center;
+}
+span{
+	text-transform: uppercase;
+	color: red	;
+}
+
+.back{
+	letter-spacing: 3px;
+}
+
+.debut{
+	white-space: nowrap;
+}
+
+.world_success{
+	text-indent: 40px;
+}
+
+.history_of_name{
+	word-spacing: 10px;
+}
+.page_link .link_style{
+	color: violet;
+	font-size: 18px;
+	text-decoration: none;
+}
+.page_link{
+	text-align: center;
+	
+}
